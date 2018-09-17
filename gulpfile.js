@@ -14,7 +14,7 @@ gulp.task('css', function(){
         .pipe(plumber(function(error){
             gutil.log(error.message)
         }))
-        .pipe(sass({errLogToConsole:true}))
+        .pipe(sass({errLogToConsole:true, includePaths: ['node_modules']}))
         .on('error', function () {
 
         })
