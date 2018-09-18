@@ -1,20 +1,18 @@
 .header {
-  background: url("../images/bg/picture.png") no-repeat;
+  background-image: url("/../images/bg/picture.png");
   background-size: cover;
   display: block;
+}
 
-  &_a .nav-link {
-    font-family: "Proxima Nova Rg", serif;
-    font-size: 14px;
-  }
+
+.container {
 
   &_a:hover {
     text-decoration: underline;
-    color: #fce38a;
   }
-}
 
-.logo {
-  font-family: "montserrat-bold_", sans-serif;
-  color: white;
+  &_logo {
+    font-family: "montserrat-bold_", sans-serif;
+    color: white;
+  }
 }
