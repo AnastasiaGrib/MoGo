@@ -1,18 +1,73 @@
 .header {
-  background-image: url("/../images/bg/picture.png");
+  background-image: url("../images/bg/picture.png");
   background-size: cover;
-  display: block;
-}
 
-
-.container {
-
-  &_a:hover {
-    text-decoration: underline;
-  }
-
-  &_logo {
-    font-family: "montserrat-bold_", sans-serif;
+  &__logo {
+    font-family: montserrat-bold_, sans-serif;
+    font-size: 30px;
     color: white;
   }
+
+  &__text-large {
+    font-family: kaushan-script, sans-serif;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    padding-top: 170px
+  }
+
+  &__text-welcom {
+    font-family: montserrat-bold_, sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 62px;
+  }
+
+  &__menu-link {
+    padding: 0;
+    margin: 0 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+
+    &:hover {
+      border-bottom: 2px #fce38a solid;
+    }
+  }
+
+  &__button {
+    border: white 3px solid;
+    margin: 125px 0 160px 0;
+    text-align: center;
+
+  }
+
+  &__button_learn {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+
+    &:hover {
+      border-bottom: 2px #fce38a solid;
+    }
+  }
+
+  &__progress-line {
+  }
+
+  &__progress-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  &__number-size {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  &__text-size {
+    color: white;
+  }
+
 }

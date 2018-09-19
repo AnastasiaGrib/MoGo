@@ -6,36 +6,97 @@
     <title>MoGo</title>
    </head>
 <body>
-<div class="header">
+<section class="header">
     <div class="container">
-        <div class="menu">
-            <ul class="nav justify-content-end">
 
-            <li class="nav-item">
-                <a class="nav-link active" href="#">ABOUT</a>
-            </li>
+        <!-- menu link-->
 
-            <li class="nav-item">
-                <a class="nav-link hover" href="#">SERVICE</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link hover" href="#">WORK</a>
-            </li>
+        <div class="row">
+            <div class="col-4">
+                <div class="header__logo">MoGo
+                </div>
+            </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-        </ul>
+            <div class="col-8">
+                <nav class="header__menu">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link header__menu-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__menu-link" href="#">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__menu-link" href="#">WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__menu-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link header__menu-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <div class="logo">MoGo
+        <!-- Text center-->
+
+        <div class="header__text">
+            <h1 class="header__text-large">Creative Template</h1>
+
+            <h1 class="header__text-welcom">WELCOM TO MOGO</h1>
+        </div>
+        <div class="header__button">
+            <button type="button" class="btn btn-link header__button-learn">LEARN MORE</button>
+        </div>
+
+
+        <!-- progressbar-->
+
+        <div class="row">
+            <div class="col-3">
+                <div class="progress" style="height: 4px;">
+                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="header__progress-text">
+                    <span class="header__number-size">01</span>
+                    <span class="header__text-size"> INTRO</span>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="progress" style="height: 4px;">
+                    <div class="progress-bar header__progress-line" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="header__progress-text">
+                    <span class="header__number-size">02</span>
+                    <span class="header__text-size"> WORK</span>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="progress" style="height: 4px;">
+                    <div class="progress-bar header__progress-line" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="header__progress-text">
+                    <span class="header__number-size">03</span>
+                    <span class="header__text-size"> ABOUT</span>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="progress" style="height: 4px;">
+                    <div class="progress-bar header__progress-line" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="header__progress-text">
+                    <span class="header__number-size">04</span>
+                    <span class="header__text-size"> CONTACT</span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
 </body>
 </html>
