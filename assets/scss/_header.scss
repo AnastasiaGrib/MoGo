@@ -36,19 +36,20 @@
   }
 
   &__button {
-    border: white 3px solid;
+
     margin: 125px 0 160px 0;
     text-align: center;
 
-  }
+    &-learn {
+      font-size: 14px;
+      border: white 3px solid;
+      font-family: Montserrat, sans-serif;
 
-  &__button_learn {
-    font-size: 14px;
-    font-family: Montserrat, sans-serif;
-
-    &:hover {
-      border-bottom: 2px #fce38a solid;
+      &:hover {
+        border-bottom: 2px #fce38a solid;
+      }
     }
+
   }
 
   &__progress-line {

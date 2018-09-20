@@ -1,0 +1,43 @@
+.about {
+  background-size: cover;
+
+  &__text {
+    font-family: kaushan-script, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    padding-top: 94px;
+
+  }
+
+  &__text-about {
+    font-family: montserrat-bold_, sans-serif;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  &__story-text {
+    text-align: center;
+    font-family: roboto-regular_, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    padding: 90px 0 100px 0;
+  }
+
+/*&__border { розовая полоска-----
+    border-bottom: 3px #f38181 solid;
+    height: 3px;
+    width: 60px;
+    text-align: center;
+  }*/
+
+  &__story{
+    padding-bottom: 112px;
+
+  }
+  &__story-icon {
+    border-radius: 0;
+  }
+}

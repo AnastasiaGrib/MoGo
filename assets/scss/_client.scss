@@ -1,0 +1,37 @@
+.client {
+  background: #95e1d3;
+  background-size: cover;
+
+  &__box-container {
+    display: flex;
+  }
+
+  &__box {
+    flex: 1;
+    border-right: 0.5px white solid;
+
+    &:first-child {
+      border-left: 0.5px white solid;
+    }
+  }
+
+  &__box-number {
+    font-family: montserrat-bold_ , sans-serif;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+
+  }
+
+  &__box-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 90px;
+
+  }
+}
